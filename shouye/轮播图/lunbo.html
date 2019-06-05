@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lunbo.css">
+    <script src="./jquery.js"></script>
+</head>
+<body>
+    <div class="lunbo">
+      
+        <ul id="lunboul">
+            <li style="z-index: 7"><a href="#"><img src="./lunbo/lunbo.jpg" alt=""></a></li>
+            <li style="z-index: 6"><a href="#"><img src="./lunbo/lunbo2.jpg" alt=""></a></li>
+            <li style="z-index: 5"><a href="#"><img src="./lunbo/lunbo3.jpg" alt=""></a></li>
+            <li style="z-index: 4"><a href="#"><img src="./lunbo/lunbo4.jpg" alt=""></a></li>
+            <li style="z-index: 3"><a href="#"><img src="./lunbo/lunbo5.jpg" alt=""></a></li>
+            <li style="z-index: 2"><a href="#"><img src="./lunbo/lunbo6.jpg" alt=""></a></li>
+            <li style="z-index: 1"><a href="#"><img src="./lunbo/lunbo7.jpg" alt=""></a></li>
+        </ul>
+        <ol id="lunbool" style="z-index: 10">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <script>
+    var index = 0;
+    var timer = setInterval(autoPlay,1000);
+    function autoPlay(){
+        index ++;
+        $("#lunboul > li").eq(index).fadeIn(500).siblings().fadeOut(500);
+        $("#lunbool > li").eq(index).addClass("current").siblings().removeClass("current");
+
+        if(index == $("#lunboul > li").length - 1){
+            index = -1;
+        }
+    }
+
+    $("#lunbool > li").hover(function(){
+        clearInterval(timer);
+        index = $(this).index() -1;
+        autoPlay();
+        $("#lunbool > li").css("cursor","pointer")
+    },function(){
+        timer = setInterval(autoPlay,1000);
+    })
+    </script>
+</body>
+</html>
+

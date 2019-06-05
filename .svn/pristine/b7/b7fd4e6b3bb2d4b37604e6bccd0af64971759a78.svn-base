@@ -1,0 +1,26 @@
+[{
+    "src": "./fanke-json/pants/k2.jpg",
+    "sort": "牛仔裤",
+    "text": "充值购买相当于",
+    "price": "79",
+    "count": "5"
+
+}, {
+    "src": "./fanke-json/pants/k3.jpg",
+    "sort": "牛仔裤",
+    "text": "充值购买相当于",
+    "price": "69",
+    "count": "5"
+}, {
+    "src": "./fanke-json/pants/k4.jpg",
+    "sort": "窄脚休闲裤",
+    "text": "充值购买相当于",
+    "price": "79",
+    "count": "5"
+}, {
+    "src": "./fanke-json/pants/kz285438.jpg",
+    "sort": "休闲裤",
+    "text": "充值购买相当于",
+    "price": "79",
+    "count": "5"
+}]

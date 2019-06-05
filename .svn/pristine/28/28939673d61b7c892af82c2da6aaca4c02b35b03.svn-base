@@ -1,0 +1,26 @@
+<?php
+// sleep(2);
+header('Content-type:text/html;charget=utf8');
+$uname=$_POST['unameval'];
+$pwd=$_POST['pwdval'];
+mysql_connect('127.0.0.1','root','root');
+mysql_query('use mysql');
+$sql="select * from table1 where uname='$uname' and password='$pwd'";
+$result=mysql_query($sql);
+$rows=mysql_fetch_assoc($result);
+if( $rows){
+    $respone=[
+        "code"=>200,
+        "message"=>"登录成功"
+    ];
+}else{
+    $respone=[
+        "code"=>-1,
+        "message"=>"重新登录"
+    ];
+}
+echo json_encode($respone);
+
+
+
+?>

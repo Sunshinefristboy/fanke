@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>热点问题</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul,ol li {list-style: none;}
+        a {text-decoration: none;color: #9d9d9d;font-size: 14px;}
+        .cont{width: 588px;height: 413px;margin: 0 438px;padding: 15px 36px 0;font-size: 12px;color: #333;}
+        .cont h2{width: 588px;height: 46px;font-size: 22px;color: #222;font-weight: normal;padding: 15px 0 0;border-bottom: 1px solid #ccc;}
+        .list{width: 533px;height: 32px;padding: 10px 0 10px 55px;font-size: 12px;color: #333;}
+        .list li{width: 32px;height: 32px;padding:0 8px;margin: 0 0 0 5px;float: left;line-height: 32px;}
+        .list li a:hover{color: #b60005;}
+        .ol{width: 650px;height: 170px;padding:0 0 0 60px;}
+        .ol li{width: 650px;height: 23px;margin-bottom: 13px;}
+        .ol li span{width: 21px;height: 21px;color: #b60005;font-size: 14px;border: 1px solid #ccc;margin:0 15px 0 0;text-align: center;display: inline-block;line-height: 21px;}
+        .ol li a:hover{color: #b60005;}
+        .bot{width: 650px;height: 67px;padding:0 0 0 120px;}
+        .bot ol li{width: 650px;height: 20px;margin: 0 0 13px;color: #b60005;font-size: 14px;}
+        .foot{width: 469px;height: 43px;padding: 20px 0 0 100px;}
+        .foot input{width: 270px;height: 43px;background: #b60005;border: none;color: #fff;font-size: 16px;text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h2>热门问题</h2>
+        <div class="list">
+            <ul>
+                <li><a href="#" style="font-size: 16px;">账户</a></li>
+                <li><a href="#" style="font-size: 16px;">订购</a></li>
+                <li><a href="#" style="font-size: 16px;">配送</a></li>
+                <li style="width: 48px;"><a href="#" style="font-size: 16px;">退换货</a></li>
+            </ul>
+        </div>
+        <div class="ol">
+            <ol>
+                <li><span>1</span><a href="#">为什么在登录的时候总说用户名和密码错误？</a></li>
+                <li><span>2</span><a href="#">如何申请虚拟账户取现？</a></li>
+                <li><span>3</span><a href="#">忘记支付密码怎么办？如何修改支付密码</a></li>
+                <li><span>4</span><a href="#">普通会员如何升级为VIP或者SVIP？</a></li>
+            </ol>
+        </div>
+        <div class="bot">
+            <ol>
+                <li>客服热线：400-659-0066</li>
+                <li>客服邮箱：service@vancl.cn</li>
+            </ol>
+        </div>
+        <div class="foot">
+            <input type="button" value="以上信息没帮助，转在线客服">
+        </div>
+    </div>
+</body>
+</html>

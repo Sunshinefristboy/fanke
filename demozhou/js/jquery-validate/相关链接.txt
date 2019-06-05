@@ -1,0 +1,2 @@
+基本使用：https://www.jianshu.com/p/e1d5f0dc2f5d
+文档：https://www.runoob.com/jquery/jquery-plugin-validate.html

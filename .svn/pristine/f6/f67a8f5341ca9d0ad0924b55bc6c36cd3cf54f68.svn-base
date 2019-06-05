@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>凡客诚品-会员登录</title>
+    <link rel="icon" href="../images/icon.ico" type="img/x-ico" />
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/yzm.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="nav-main">
+            <a href="http://www.vancl.com/" style="text-decoration: none;">
+                <h1>凡客Vancl</h1>
+            </a>
+            <hr>
+        </div>
+        <div class="clearfix">
+            <div class="nav-left clearfix">
+                <img src="../images/login.jpg" alt="">
+            </div>
+            <div class="nav-right">
+                <div class="headline">
+                    <h2>凡客 Vancl 登录</h2>
+                    <span class="pan">没有账户免费<a href="./login.html">注册</a></span>
+                </div>
+                <form action="" onsubmit="return false">
+
+                    <div>
+                        <button class="btn btnColor">普通登陆</button>
+                        <button class="btn">快速登陆</button>
+                    </div>
+
+                    <div class=" dis ">
+                        <div>
+                            <input type="text" placeholder="请输入用户名" class="uname">
+                        </div>
+                        <div class="errspan1">
+                            <img src="../images/err.png"><span>用户名不能为空</span>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="请输入密码" class="pwd">
+                        </div>
+                        <div class="errspan2">
+                            <img src="../images/err.png"><span>密码不能为空</span>
+                        </div>
+                        <div class="morenb">
+                            <input type="password" placeholder="验证码" class="pwd2">
+                            <span id="yz" class="common"
+                                style="background: url(../images/1.png) ;width:165px;font-style: italic;display: inline-block;">
+                            </span>
+                        </div>
+                        <div>
+                            <a href="https://login.vancl.com/login/ThawUser.aspx" class="unfreeze">解冻账户</a>
+                            <a href="https://login.vancl.com/login/GetPwdStep1.aspx" class="findpwd">找回密码</a>
+                        </div>
+                        <input type="submit" name="" id="" class="sub" value="登录">
+                    </div>
+                    <div class="dis disp">
+                        <div>
+                            <input type="text" placeholder="输入手机号" class="uname1">
+                            <a href="javascript:void(0)" class="dxyzm">获取短信验证码</a>
+                        </div>
+                        <div class="errspan4">
+                            <img src="../images/err.png"><span>请获取短信验证码</span>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="验证码" class="pwd1"><span id="yz1"
+                                style="background: url(../images/1.png) ;width:165px;font-style: italic;display: inline-block;"></span>
+                            <a href="javascript:void(0)" id="btn">看不清？换一张</a>
+                        </div>
+                        <div class="errspan5">
+                            <img src="../images/err.png"><span>请输入图片上的验证码后，再获取短信验证码</span>
+                        </div>
+                        <div>
+                            <input type="text" name="" id="" placeholder="请输入手机验证码" class="yzm">
+                        </div>
+                        <div class="errspan6">
+                            <img src="../images/err.png"><span>请输入有效的手机号码</span>
+                        </div>
+                        <input type="submit" name="" id="" class="sub1" value="登录">
+                    </div>
+                    <div class="foot">
+                        <p>使用合作网站账号登录凡客</p>
+                        <a
+                            href="https://open.weixin.qq.com/connect/qrconnect?appid=wxd896d883988e6d74&redirect_uri=http%3a%2f%2flogin.vancl.com%2flogin%2fwxlogincallback.aspx%3freturnPage%3dhttp%3a%2f%2fwww.vancl.com%3fhttp%253A%252F%252Fwww.vancl.com%252F&response_type=code&scope=snsapi_login&state=3f76d308ce9a41e183f95c0741bd40a2#wechat_redirect"><img
+                                src="../images/icon_03.gif" alt=""></a>
+                        <a href="#"><img src="../images/icon_05.png" alt=""></a>
+                        <a href="#"><img src="../images/icon_08.gif" alt=""></a>
+                        <a href="#"><img src="../images/icon_10.gif" alt=""></a>
+                        <a href="#"><img src="../images/icon_13.gif" alt=""></a>
+                        <a href="#"><img src="../images/icon_16.gif" alt=""></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="nav-main main">
+        <hr>
+        <p style="text-align: center;color:#999;padding-top:34px;">Copyright 2007 - 2016 vancl.com All Rights Reserved
+            京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+        <div style="text-align: center;color:#999;" class="coop">
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot1.png" alt=""></a>
+            <a href="https://credit.cecdc.com/CX20111229001302001330.html"><img src="../images/foot2.png" alt=""></a>
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot3.png" alt=""></a>
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot4.png" alt=""></a></div>
+    </div>
+    <script>
+        $(".btn").click(function () {
+            $(this).addClass("btnColor").siblings().removeClass("btnColor");
+
+            var index = $(this).index();
+
+            $(".dis").eq(index - 1).addClass("disp").siblings().removeClass("disp");
+        })
+        $id("yz").innerHTML = getYZM(6);
+        $id("btn").onclick = function () {
+            $id("yz").innerHTML = getYZM(6);
+        }
+        $id("yz1").innerHTML = getYZM(6);
+        $id("btn").onclick = function () {
+            $id("yz1").innerHTML = getYZM(6);
+        }
+        //普通登录验证
+        var index = 0;
+
+        $(".sub").click(function () {
+            //console.log(this);
+            var unameval = $(".uname").val();
+            var pwdval = $(".pwd").val();
+            if (unameval == '') {
+                $('.errspan1').css("visibility", "visible");
+                return;
+            }
+            if (unameval != '' && pwdval == "") {
+                $('.errspan1').css("visibility", "hidden");
+                $('.errspan2').css("visibility", "visible");
+                return;
+            }
+            $(".sub").prop("disabled", true);
+            $(".sub").html("登录中。。。");
+
+            $.post("../php/register.php", { "unameval": unameval, "pwdval": pwdval }, function (res) {
+                $(".sub").prop("disabled", false);
+                $(".sub").html("登录")
+                if (res.code == 200) {
+                    console.log(1);
+                    $(".errspan2").html(res.message).css("visibility", "visible");
+                    location.href = './item.html';
+                } else {
+                    $(".errspan2").html(res.message).css("visibility", "visible");
+                    index++;
+                        if (index > 3) {
+                            $('.morenb').css("display", "block");
+                        }
+                        if (index > 6) {
+                            $('.unfreeze').css("visibility", "visible");
+                        }
+                        return;
+                }
+                /* for (var i in res) {
+                    //console.log(i);
+
+                    $(".sub").prop("disabled", false);
+                    $(".sub").html("登录");
+                    if (unameval == res[i].uname && pwdval == res[i].password) {
+                        $(".errspan2").html('登录成功').css("visibility", "visible");
+                        location.href = './item.html';
+                        return;
+                    } else if (unameval != res[i].uname && pwdval != res[i].password) {
+                        $(".errspan2").html('账户不存在').css("visibility", "visible");
+                        index++;
+                        if (index > 3) {
+                            $('.morenb').css("display", "block");
+                        }
+                        if (index > 6) {
+                            $('.unfreeze').css("visibility", "visible");
+                        }
+                        return;
+                    }
+                } */
+            }, "json")
+        })
+
+        //快速登录
+        var reg = /^1[34578]\d{9}$/;
+
+        $(".sub1").click(function () {
+            var unameval1 = $(".uname1").val();
+            var pwdval1 = $(".pwd1").val();
+            var yzmval1 = $(".yzm").val();
+            var getyzm = getYZM(6);
+
+            //console.log(unameval1)
+            if (!(reg.test(unameval1))) {
+                console.log(!(reg.test(unameval1)));
+
+                $('.errspan6').css("visibility", "visible");
+                return;
+            } else if (reg.test(unameval1) && yzmval1 == '') {
+                $('.errspan4').css("visibility", "visible");
+            } else if (reg.test(unameval1) && (pwdval1 == '' || pwdval1 != $id("yz1").innerHTML)) {
+                $('.errspan5').css("visibility", "visible");
+            } else if (reg.test(unameval1) && pwdval1 == $id("yz1").innerHTML && yzmval1 == getyzm) {
+                $(".errspan6").html('登录成功').css("visibility", "visible");
+                location.href = './item.html';
+                return;
+            }
+        })
+    </script>
+</body>
+
+</html>

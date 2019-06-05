@@ -1,0 +1,322 @@
+.header {
+    width: 980px;height: 56px;
+    margin: 0 auto;
+    border-bottom: 1px solid #7f7f7f;
+}
+.header img {
+    width: 122px;height: 30px;
+    margin-left: 96px;
+    margin-top: 20px;
+    float: left;
+}
+.header ul {
+    margin-top: 28px;
+    float: right;
+}
+.header ul li{
+    float: left;
+}
+.header ul li a{
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 14px;
+}
+.header ul li:nth-child(2) a{
+    color: #b80000;
+    padding-right: 6px;
+    border-right: 1px solid #6e6b80;
+}
+.header ul li:nth-child(3) a{
+    color: #b80000;
+    padding-left: 6px;
+    padding-right: 32px;
+}
+.nav {
+    width: 980px;height: 114px;
+    margin: 0 auto;
+}
+.nav .top {
+    width: 540px; height: 28px;
+    margin-top: 10px;
+}
+.nav .top ul li {
+    width: 176px;height: 28px;
+    line-height: 28px;
+    float: left;
+    background: #eeeeee;
+    border-left: 2px solid white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav .top ul li:nth-child(1){
+    background: #b80000;
+    border-left: none;
+    color: white;
+}
+.nav .middle{
+    height: 44px;
+}
+.nav .middle a img{
+    width: 34px;height: 30px;
+    margin-top: 12px;
+}
+.nav .middle span a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-left: 12px;
+}
+.nav .foot{
+    margin-top: 6px;
+}
+.nav .foot b{
+    font-size: 12px;
+    color: #b80000;
+    font-weight: normal;
+    line-height: 24px;
+}
+.nav .foot span{
+    font-size: 12px;
+    color: #4d4b4c;
+    line-height: 24px;
+}
+.section {
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid #b8b8b8;
+    overflow: hidden;
+}
+.section .top{
+    width: 978px;height: 38px;
+    background: #f1f1f1;
+    border-bottom: 1px solid #b8b8b8;
+    position: relative;
+}
+.section .top ul {
+    height: 38px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+.section .top ul li input {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+.section .top ul li{
+    padding-left: 56px;
+    line-height: 38px;
+    float: left;
+}
+.section .top ul li:nth-child(1){
+    padding-left: 38px;
+}
+.section .top ul li:nth-child(2){
+    padding-left: 226px;
+}
+.section .top ul li:nth-child(3){
+    padding-left: 168px;
+}
+.section #main{
+    width: 946px;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #f8f8f8;
+}
+.section #main ul {
+    font-size: 12px;
+    color: black;
+    height: 70px;
+    padding: 10px 30px;
+    position: relative;
+}
+.section #main ul li{
+    float: left;
+}
+.section #main ul li img{
+    width: 50px;height: 50px;
+    border: 1px solid #c8c8c8;
+}
+.section #main ul li .check {
+    margin-top: 18px;
+}
+.section #main ul li:nth-child(2){
+    padding-left: 38px;
+}
+.section #main ul li:nth-child(3){
+    padding-left: 10px;
+    line-height: 50px;
+    color: #2f2820;
+}
+.section #main ul li:nth-child(4){
+    position: absolute;
+    left: 496px;
+    line-height: 50px;
+    color: #2f2820;
+}
+.section #main ul li:nth-child(5){
+    position: absolute;
+    left: 556px;
+    line-height: 50px;
+    color: #2f2820;
+}
+.section #main ul li:nth-child(6){
+    position: absolute;
+    left: 624px;
+    top: 24px;
+}
+.section #main ul li #subBtn{
+    width: 16px;height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+    border: 1px solid #a9a9a9;
+    background: #fefefe;
+}
+.section #main ul li #subBtn .icon-jian{
+    font-size: 14px;
+}
+.section #main ul li .addTxt{
+    width: 30px;height: 18px;
+    border: 1px solid #a9a9a9;
+    margin: 0 6px;
+    text-align: center;
+}
+.section #main ul li #addBtn{
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+    width: 16px;height: 18px;
+    border: 1px solid #a9a9a9;
+    background: #c8c8c8;
+}
+.section #main ul li #addBtn .icon-jia--copy{
+    font-size: 14px;
+    position: absolute;
+    top: 1px;
+}
+.section #main ul li:nth-child(7){
+    position: absolute;
+    left: 736px;
+    line-height: 50px;
+}
+.section #main ul li:nth-child(8){
+    position: absolute;
+    left: 798px;
+    line-height: 50px;
+}
+.section #main ul li:nth-child(9) a{
+    position: absolute;
+    left: 888px;
+    line-height: 50px;
+    color: #a1a292;
+}
+.figure {
+    overflow: hidden;
+    width: 980px;height: 118px;
+    margin: auto;
+    background-color: #fefef6;
+    margin-top: 12px;
+    border: 1px solid #b8b8b8;
+}
+.figure #left {
+    float: left;
+}
+.figure #left ul {
+    height: 28px;
+    margin-top: 24px;
+    position: relative;
+}
+.figure #left ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 28px;
+    color: #2a2122;
+}
+.figure #left ul li:nth-child(1) {
+    line-height: 28px;
+    padding-left: 36px;
+}
+.figure #left ul li:nth-child(1) input {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+}
+.figure #left ul li:nth-child(2) {
+    padding-left: 24px;
+}
+.figure #left ul li:nth-child(3) {
+    padding-left: 46px;
+}
+.figure #left ul li:nth-child(4) {
+    padding-left: 8px;
+    color: #b80000;
+}
+.figure #left ol {
+    margin-left: 14px;
+}
+.figure #left ol li {
+    float: left;
+    font-size: 12px;
+    line-height: 28px;
+    color: #2a2122;
+}
+.figure #left ol li:nth-child(2) {
+    font-size: 18px;
+    color: #b80000;
+    font-weight: bold;
+}
+.figure .right {
+    float: right;
+}
+.figure .right .backBtn{
+    display: inline-block;
+    width: 120px;height: 36px;
+    border: 1px solid #dedede;
+    background: #e1e1e1;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 32px;
+}
+.figure .right .shopBtn{
+    display: inline-block;
+    width: 160px;height: 50px;
+    border: 1px solid #680e06;
+    background: #ad0600;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    margin: 52px 10px 0 12px;
+}
+.footer {
+    width: 980px;
+    margin: 0 auto;
+}
+.footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #98958e;
+    text-align: center;
+    line-height: 56px;
+}
+.footer ul {
+    margin-left: 252px;
+}
+.footer ul li {
+    float: left;
+    margin-right: 24px;
+}
+.footer ul li:nth-child(1) a img{
+    width: 154px;height: 44px;
+}
+.footer ul li:nth-child(2) a img{
+    width: 156px;height: 44px;
+}
+.footer ul li:nth-child(3) a img{
+    width: 32px;height: 38px;
+    margin-top: 4px;
+}

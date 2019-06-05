@@ -1,0 +1,211 @@
+[{
+        "src": "./t/2.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/sy_03.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/sy_05.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/xp_03.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/xp_15.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/xpg_05.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_03.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_05.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_07.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_09.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_13.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./t/zpx_15.jpg",
+        "price": "58",
+        "count": "5"
+    },
+    {
+        "src": "./pants/k2.jpg",
+        "sort": "牛仔裤",
+        "text": "充值购买相当于",
+        "price": "79",
+        "count": "5"
+    },
+    {
+        "src": "./pants/k3.jpg",
+        "sort": "牛仔裤",
+        "text": "充值购买相当于",
+        "price": "69",
+        "count": "5"
+    },
+    {
+        "src": "./pants/k4.jpg",
+        "sort": "窄脚休闲裤",
+        "text": "充值购买相当于",
+        "price": "79",
+        "count": "5"
+    },
+    {
+        "src": "./pants/kz285438.jpg",
+        "sort": "休闲裤",
+        "text": "充值购买相当于",
+        "price": "79",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/g.jpg",
+        "left": "凡客新品",
+        "right": "充值购买相当于",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/hw.jpg",
+        "left": "户外运动",
+        "right": "充值购买更多优惠",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/mm.jpg",
+        "left": "棉麻衬衫",
+        "right": "充值购买相当于",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/njf.jpg",
+        "left": "牛津纺衬衫",
+        "right": "充值购买相当于",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/pc01.jpg",
+        "left": "4.0日式免烫衬衫",
+        "right": "充值购买更优惠",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/srm.jpg",
+        "left": "全棉舒适素色T",
+        "right": "充值购买相当于39",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/polo..jpg",
+        "left": "POLO 新品上市",
+        "right": "充值购买相当于99",
+        "count": "5"
+    },
+    {
+        "src": "./recommend/stk.jpg",
+        "left": "沙滩裤",
+        "right": "充值购买更优惠",
+        "count": "5"
+    },
+    {
+        "src": "./more/2014_8_29_16_39_33_7709.jpg",
+        "text": "扫描下载凡客客户端"
+    },
+    {
+        "src": "./more/fbx.jpg"
+    },
+    {
+        "src": "./more/jj.jpg"
+    },
+    {
+        "src": "./more/nyg.jpg"
+    },
+    {
+        "src": "./more/onlinecustomer.png"
+    },
+    {
+        "src": "./more/pc15.jpg"
+    },
+    {
+        "src": "./more/seven.png"
+    },
+    {
+        "src": "./more/sy.jpg"
+    },
+    {
+        "src": "./more/xb.jpg"
+    },
+    {
+        "src": "./second/6378410-1j201801111409218163.jpg",
+        "text": "限时抢购价38",
+        "count": "5"
+    },
+    {
+        "src": "./second/6384329-1j201902261004512402.jpg",
+        "text": "限时抢购价38",
+        "count": "5"
+    },
+    {
+        "src": "./second/6384342-1j201902261002315647.jpg",
+        "text": "限时抢购价38",
+        "count": "5"
+    },
+    {
+        "src": "./second/6384458-1j201903111524068251.jpg",
+        "text": "限时抢购价38",
+        "count": "5"
+    },
+    {
+        "src": "./second/6385293-1j201903061602544994.jpg",
+        "text": "限时抢购价38",
+        "count": "5"
+    },
+    {
+        "src": "./Carousel/535.jpg"
+    },
+    {
+        "src": "./Carousel/1200-535.jpg"
+    },
+    {
+        "src": "./Carousel/1200-535t.jpg"
+    },
+    {
+        "src": "./Carousel/1200-535x.jpg"
+    },
+    {
+        "src": "./Carousel/1200-576.jpg"
+    },
+    {
+        "src": "./Carousel/cs535.jpg"
+    },
+    {
+        "src": "./Carousel/x535x.jpg"
+    }
+]

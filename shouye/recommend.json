@@ -1,0 +1,41 @@
+[{
+    "src": "./fanke-json/recommend/pc01.jpg",
+    "left": "凡客新品",
+    "right": "充值购买相当于",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/njf.jpg",
+    "left": "户外运动",
+    "right": "充值购买更多优惠",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/g.jpg",
+    "left": "棉麻衬衫",
+    "right": "充值购买相当于",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/srm.jpg",
+    "left": "牛津纺衬衫",
+    "right": "充值购买相当于",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/polo..jpg",
+    "left": "4.0日式免烫衬衫",
+    "right": "充值购买更优惠",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/mm.jpg",
+    "left": "全棉舒适素色T",
+    "right": "充值购买相当于39",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/stk.jpg",
+    "left": "POLO 新品上市",
+    "right": "充值购买相当于99",
+    "count": "5"
+}, {
+    "src": "./fanke-json/recommend/hw.jpg",
+    "left": "沙滩裤",
+    "right": "充值购买更优惠",
+    "count": "5"
+}]

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>凡客诚品-会员免费注册</title>
+    <link rel="icon" href="../images/icon.ico" type="img/x-ico" />
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/yzm.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="nav-main">
+            <a href="http://www.vancl.com/" style="text-decoration: none;">
+                <h1>凡客Vancl</h1>
+            </a>
+            <hr>
+        </div>
+        <div class="clearfix">
+            <div class="nav-left clearfix">
+                <img src="../images/login.jpg" alt="">
+            </div>
+            <div class="nav-right">
+                <div class="headline clearfix">
+                    <h2>注册新用户</h2>
+                    <span class="pan">我已注册，现在就<a href="./register.html">登录</a></span>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" placeholder="验证码" class="pwd1"><span id="yz"
+                            style="background: url(../images/1.png) ;width:160px;font-style: italic;display: inline-block;"></span>
+                    </div>
+                    <div class="errspan1">
+                        <span>请输入图片上的验证码后，再获取短信验证码</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="输入手机号" class="uname1">
+                        <a href="javascript:void(0)" class="dxyzm">获取短信验证码</a>
+                    </div>
+                    <div class="errspan2">
+                        <span>请输入有效手机号</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="填写用户名" class="uname">
+                    </div>
+                    <div class="errspan3">
+                        <span>请输入正确用户名</span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="设定登录密码" class="pwd">
+                    </div>
+                    <div class="errspan4">
+                        <span>请输入正确密码</span>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="再次输入密码" class="pwd2">
+                    </div>
+                    <div class="errspan5">
+                        <span>两次密码不一致</span>
+                    </div>
+                    <div class="checkserve">
+                        <input type="checkbox" id="getCheck" onclick="checkfn(this)">
+                        <label for="getCheck" style="font-size: 16px;">
+                            请阅读<a href="http://help.vancl.com/Category/69-1.html"
+                                style="font-size: 16px;color: #b52024;font-weight: bold;">《VANCL凡客诚品服务条款》</a>
+                        </label>
+                    </div>
+                    <div>
+                        <!-- <input type="submit" name="" id="" class="sub" value="立即注册"> -->
+                        <a href="javascript:void(0)" class="sub">立即注册</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="nav-main main">
+        <p style="text-align: center;color:#999;padding-top:34px;">Copyright 2007 - 2016 vancl.com All Rights Reserved
+            京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+        <div style="text-align: center;color:#999;" class="coop">
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot1.png" alt=""></a>
+            <a href="https://credit.cecdc.com/CX20111229001302001330.html"><img src="../images/foot2.png" alt=""></a>
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot3.png" alt=""></a>
+            <a href="http://www.315online.com.cn/member/315090053.html"><img src="../images/foot4.png" alt=""></a></div>
+    </div>
+    <script>
+
+        function checkfn() {
+            var flag = $("#getCheck").prop("checked");
+            if (flag) {
+                $(".sub").css('background', '#b42025');
+                $(".sub").click(function () {
+                    var pwdval1 = $(".pwd1").val();
+                    var unameval1 = $(".uname1").val();
+                    var unameval = $(".uname").val();
+                    var pwdval = $(".pwd").val();
+                    var pwdval2 = $(".pwd2").val();
+                    var tel = /^1[34578]\d{9}$/;
+                    var unamereg = /^[a-zA-Z0-9]{4,10}$/;
+                    var pwdreg = /^(?![0-9]+$)(?![a-zA-Z]+$)(?!([^(0-9a-zA-Z)]|[])+$)([^(0-9a-zA-Z)]|[]|[a-zA-Z]|[0-9]){6,16}$/;
+                    /* if (unameval1 == '' || !(tel.test(unameval1))) {
+                        $('.errspan2').css("visibility", "visible");
+                        return;
+                    } else if (tel.test(unameval1) && pwdval1 == '') {
+                        $('.errspan2').css("visibility", "hidden");
+                        $('.errspan1').css("visibility", "visible");
+                        
+                    } else if (tel.test(unameval1) && pwdval1 == $id("yz").innerHTML && unameval == sjyzm && (pwdval == '' || !(pwdreg.test(pwdval)))) {
+                        $('.errspan4').css("visibility", "visible");
+                    }
+                })
+                $('.dxyzm').click(function () {
+                            if (pwdval1 == '' || pwdval1 != $id("yz").innerHTML) {
+                                alert(1);
+                                $("#yz").html('getYZM(6)') 
+                            } else {
+                                $('.errspan1').css("visibility", "hidden");
+                                var sjyzm = getYZM(6);
+                                alert(sjyzm);
+                                return sjym; 
+                            }*/
+                    if (pwdval1 != $id("yz").innerHTML) {
+                        $('.errspan1').css("visibility", "visible");
+                    } else if (!(tel.test(unameval1))) {
+                        $('.errspan2').css("visibility", "visible");
+                    } else if (!(unamereg.test(unameval))) {
+                        $('.errspan3').css("visibility", "visible");
+                    } else if (!(pwdreg.test(pwdval))) {
+                        $('.errspan4').css("visibility", "visible");
+                    } else if (pwdval2 != pwdval) {
+                        
+                        $('.errspan5').css("visibility", "visible");
+                    } /* else if (pwdval1 == $id("yz").innerHTML && tel.test(unameval1) && unamereg.test(unameval) && pwdreg.test(pwdval) && pwdval2 == pwdval) {
+                        $('.errspan1').css("visibility", "hidden");
+                        $('.errspan2').css("visibility", "hidden");
+                        $('.errspan3').css("visibility", "hidden");
+                        $('.errspan4').css("visibility", "hidden");
+                        $('.errspan5').html("登录成功").css("visibility", "visible"); */
+                        $.post("../php/login.php", { "unameval": unameval, "pwdval": pwdval }, function (res) {
+                            if (res.code == -1) {
+                                
+                                $(".errspan5").html(res.message).css("visibility", "visible");
+                                
+                            } else if(res.code == 200){
+                                
+                                $(".errspan5").html(res.message).css("visibility", "visible");
+                                location.href = './item.html';
+                            }else{
+                                
+                                $(".errspan5").html(res.message).css("visibility", "visible");
+                            }
+                            }, "json")
+
+
+                      /*   location.href = './item.html';
+                    } */
+                })
+            } else {
+                $(".sub").css('background', '#9d9d9d');
+            }
+
+        }
+
+        //获取光标提示事件
+        $(".pwd1").focus(function () {
+            $('.errspan1').html("请输入图片验证码").css("visibility", "visible");
+        });
+        $(".pwd1").blur(function () {
+            $('.errspan1').css("visibility", "hidden");
+        });
+        $(".uname1").focus(function () {
+            $('.errspan2').html("请填写真实的手机号，并进行验证").css("visibility", "visible")
+        });
+        $(".uname1").blur(function () {
+            $('.errspan2').css("visibility", "hidden");
+        });
+        $(".uname").focus(function () {
+            $('.errspan3').html("4-10位字符，以数字或字母组合").css("visibility", "visible")
+        });
+        $(".uname").blur(function () {
+            $('.errspan3').css("visibility", "hidden");
+        });
+
+        $(".pwd").focus(function () {
+            $('.errspan4').html("6-16位字符，以字母、数字或符号中两种组合").css("visibility", "visible")
+        });
+        $(".pwd").blur(function () {
+            $('.errspan4').css("visibility", "hidden");
+        });
+
+        $(".pwd2").focus(function () {
+            $('.errspan5').html("请再次输入登录密码，两次输入必须一致").css("visibility", "visible")
+        });
+        $(".pwd2").blur(function () {
+            $('.errspan5').css("visibility", "hidden");
+        });
+
+
+        $id("yz").innerHTML = getYZM(6);
+        $id("yz").onclick = function () {
+            $id("yz").innerHTML = getYZM(6);
+        }
+
+    </script>
+</body>
+
+</html>
